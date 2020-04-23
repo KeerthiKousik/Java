@@ -1,0 +1,54 @@
+
+class: collection of variables and methods.
+
+note:
+every method ends with () 
+------------------------------
+println()-> output
+main()-> execution starts from main
+Methods:
+---------
+->A set of instructions written to perform a particular task.
+->Every method will be doing only one task
+
+
+Every method has two properties:
+1)return type 
+2)parameter
+
+return_type method_name(par1,...,parN)[
+
+}
+ex:
+int sum(){
+int a=10,b=20,c;
+c=a+b;
+return c;
+}
+
+void sum(){
+int a=10,b=20,c;
+c=a+b;
+System.out.println("sum="+c);
+}
+
+Based on the two properties the methods are classified into four types.
+1)without return type and without parameters.
+ex:void menu();
+2)without return type and with parameters.
+ex:takeOrder(String order);
+3)with return type and without parameters.
+ex:String serveFood();
+4)with return type and with parameters.
+ex:String payBill(int amount)
+note: 
+with parameters-> the input in main block and 
+transfered to sub block(n number of values).
+
+with return type-> the output is in main block i.e from sub block output is transfered to main block.
+
+without parameters-> the input in sub block.
+
+without return type-> the output in main block.
+
+

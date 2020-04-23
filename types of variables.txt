@@ -1,0 +1,49 @@
+Types of variables
+-------------------------
+Types of variables:
+1)primitive variable (int age=27)
+2)non primitive variable (Person rahul=new Person())
+the primitive variables based on declaration is classified into 3 types
+1)instance variables
+2)static variable
+3)local variable
+instance variable
+----------------------
+1) instance variable is decalred inside the class and outsidet the method.
+2)one location is generated for one object i.e instance depends upon object.
+3)For instance variables memory is allocated in heap area.
+4)If we are not intializing the instance variable then jvm will intialise defualt values
+ex:
+int ->0
+String ->null
+boolean ->false
+
+static :
+--------
+class student
+{
+int id;
+float per;
+static String colg;
+}
+note: for id and per the value will be varying from object to object were as for colg it will be same for all objects
+for that reason we are declaring the colg variable as static.
+1) A variable whose value doesn't change from object to object, is decalred as static
+2)A static variable is decalred inside the class and outside the method.
+3)Only one copy is generated for static variables.
+4)Static depends on class name and memory is allocated in method area.
+5)If we are not intializing the static variable then jvm will intialise defualt values
+ex:
+int -> 0
+String ->null
+boolean ->false
+
+
+Local variable
+-----------------
+1)A variable declared inside a method or block or constructor.
+2)For local variables memory is allocated in stack.
+3)The scope is when the method is executed.
+4)If we are not intialising then compiler will give error.
+
+

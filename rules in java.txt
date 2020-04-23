@@ -1,0 +1,43 @@
+ 
+ rules of java:
+----------------
+class Person //classname 
+{
+int age;
+float height; //variables
+void eat() // methods 
+{}
+void sleep()
+{}
+}
+class :collection of variables and methods
+
+1) classname: first word starting letter is capital and subsequent word 
+starting letters will also be capital.
+ex:Scanner 
+ArrayList
+
+2) method name: first word starting letter is small and subsequent word 
+starting letters will be capital.
+ex: println();
+getMessage();
+printStackTrace();
+
+Variable Name:
+1. A to Z or a to z or _ or $
+   0 to 9 digits
+ex: 123total;//wrong
+    total123=44;//correct
+2.Java is case sensitive lang.
+ex: int NUMBER,NUMber,number;
+3.Reserved keywords can't be used as names.
+ex: while,for,do,break,int...etc.
+4.Space is not allowed b/w the variables.
+int area_of_traingle=4.4;
+
+
+
+
+
+
+

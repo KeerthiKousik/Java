@@ -1,0 +1,24 @@
+
+
+How to compile and run:
+1)compile:
+syntax:
+javac filename.java
+ex:
+first is a filename
+1)javac first.java
+2)javac first.java second.java
+3)javac *.java
+note: when we compile filename.java will generate  .class files
+
+run:
+java classname
+ex: 
+Test  is a classname
+java Test
+note: only one class can be run at a time.
+
+
+
+
+

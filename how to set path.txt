@@ -1,0 +1,14 @@
+how to set path:
+----------------------
+1)temporary 
+2)permanent
+
+temporary:
+set path=C:\Program Files\Java\jdk1.7.0_10\bin
+
+permanent:
+start->computer->rightclick and select (properties)->advance system settings->environment variables->user variable->new->
+variable name: path
+variable value:C:\Program Files\Java\jdk1.7.0_10\bin;
+->ok->ok
+

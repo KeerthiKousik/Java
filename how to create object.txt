@@ -1,0 +1,27 @@
+how to create object:
+object is a block of memory in programing language.
+in java the object is created by using new keyword.
+syntax:
+classname obj=new classname();
+ex:
+Person rahul=new Person();
+ArrayList al=new ArrayList();
+
+ex:
+import java.util.ArrayList;
+class Demo{
+public static void main(String args[]){
+ArrayList al=new ArrayList();
+ArrayList x;
+}
+}
+
+To access the classes we need to import the packages.
+Types of import:
+1.import java.util.ArrayList;
+2.import java.util.*;
+3.java.util.ArrayList
+
+
+
+
